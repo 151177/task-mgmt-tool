@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Task Manager</title>
+</head>
+
+<body>
+    <main>
+        <div id="header-container">
+            <div id="header-container-width">
+                <header id="header">Task Manager</header>
+                <div id="instructions">
+                    Drag and drop task cards to organize and track
+                    your work for the day.
+                </div>
+            </div>
+        </div>
+        <div id="columns-container">
+            <div class="column-with-header">
+                <textarea class="column-header" maxlength="20">Backlog</textarea>
+                <div class="card-column">
+                    <button class="new-card-button">+</button>
+                </div>
+            </div>
+
+            <div class="column-with-header">
+                <textarea class="column-header" maxlength="20">In Progress</textarea>
+                <div class="card-column">
+                    <button class="new-card-button">+</button>
+                </div>
+            </div>
+
+            <div class="column-with-header">
+                <textarea class="column-header" maxlength="20">In Review</textarea>
+                <div class="card-column">
+                    <button class="new-card-button">+</button>
+                </div>
+            </div>
+
+            <div class="column-with-header">
+                <textarea class="column-header" maxlength="20">Completed</textarea>
+                <div class="card-column">
+                    <button class="new-card-button">+</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="mobile-message">Open app on desktop to use.</div>
+    <script src="functionality.js"></script>
+</body>
+
+</html>
